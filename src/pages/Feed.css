@@ -1,0 +1,48 @@
+#post-list{
+    padding: 0.6em auto;
+    width: 100%;
+    max-width: 58em;
+}
+
+#post-list article{
+    background: #eee;
+    border: 0.15em solid #aaa;
+    margin-top: 0.6em;
+}
+
+#post-list article header{
+    padding: 0.6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#post-list article header .user-info{
+    display: flex;
+    flex-direction: column;
+}
+
+#post-list article header .user-info span{
+    font-size: 1em;
+}
+
+#post-list article header .user-info span .place{
+    font-size: 0.7em;
+    color: #666;
+    margin-top: 1em;
+}
+
+#post-list * {
+    padding: 0 auto;
+}
+
+
+#post-list .icon-buttons{
+    height: 1.6em;
+}
+
+.hashtags {
+    color: #4287f5;
+    font-weight: bolder;
+    font-style: italic;
+}

@@ -1,0 +1,25 @@
+header#main-header{
+    background: #fff;
+    height: 9em;
+    border-bottom: 0.16em solid #aaa;
+}
+
+header#main-header .header-content{
+    width: 100%;
+    max-width: 90em;
+    margin: 0 auto;
+    height: 80px;
+    padding: 1em 2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header#main-header .header-content #img-logo{
+    height: 8em;
+}
+
+header#main-header .header-content #img-camera{
+    height: 3em;
+}

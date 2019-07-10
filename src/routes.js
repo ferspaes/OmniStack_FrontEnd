@@ -4,7 +4,6 @@ import { Switch, Route } from 'react-router-dom';
 
 import Feed from './pages/Feed'; 
 import New from './pages/New'; 
-import { defaultCipherList } from 'constants';
 
 function Routes() {
     return(

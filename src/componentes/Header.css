@@ -1,14 +1,14 @@
 header#main-header{
     background: #fff;
-    height: 9em;
+    height: 8em;
     border-bottom: 0.16em solid #aaa;
 }
 
 header#main-header .header-content{
     width: 100%;
-    max-width: 90em;
+    max-width: 30em;
     margin: 0 auto;
-    height: 80px;
+    height: 5em;
     padding: 1em 2em;
 
     display: flex;
@@ -17,9 +17,9 @@ header#main-header .header-content{
 }
 
 header#main-header .header-content #img-logo{
-    height: 8em;
+    height: 6em;
 }
 
 header#main-header .header-content #img-camera{
-    height: 3em;
+    height: 2em;
 }

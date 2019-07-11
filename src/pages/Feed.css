@@ -24,13 +24,15 @@
 }
 
 #post-list article .user-info span {
-    font-size: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
-#post-list article .user-info span .place {
-    font-size: 0.9em;
+#post-list article .user-info span.place {
+    font-size: 0.8em;
     color: #666;
-    margin-top: 100em;
+    margin-top: 0.4em;
+    padding-left: 0.4em;
 }
 
 #post-list article > img {
@@ -60,6 +62,12 @@
 #post-list article footer .actions img {
     height: 1.5em;
     margin-right: 0.5em;
+}
+
+#post-list article footer .actions button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
 }
 
 #post-list article footer p {
